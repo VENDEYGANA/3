@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vende y Gana Al Día</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="banner-container">
+        <div class="banner-text">
+            🌞 Feliz y Bendecido Día 🌻 DOLAR BCV: 53,01 BS 🌻 DOLAR PARALELO: 65.77 BS 🏛️💵 &nbsp; 🌞 Feliz y Bendecido Día 🌻 DOLAR BCV: 53,01 BS 🌻 DOLAR PARALELO: 65.77 BS 🏛️💵 &nbsp; 🌞 Feliz y Bendecido Día 🌻 DOLAR BCV: 53,01 BS 🌻 DOLAR PARALELO: 65.77 BS 🏛️💵 &nbsp;
+        </div>
+    </div>
+    <div class="button-container">
+        <button class="open-button" onclick="openModal()">VENDE Y GANA AL DÍA</button>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">Cerrar</span>
+            <h2>Noticias Importantes</h2>
+            <p>Buenos días, aquí las noticias más importantes del día:</p>
+            <p>- Noticia 1</p>
+            <p>- Noticia 2</p>
+            <p>- Noticia 3</p>
+
+            <div class="form-group">
+                <label for="monto">Ingrese el monto en dólares:</label>
+                <input type="number" id="monto" placeholder="Ingrese el monto en dólares">
+            </div>
+            <div class="form-group">
+                <button onclick="convertir()">Convertir</button>
+            </div>
+            <div class="result-group">
+                <p id="resultado"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
